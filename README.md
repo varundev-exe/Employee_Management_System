@@ -165,6 +165,10 @@ com.company.ems
 └── security     JWT service, filter, user details
 ```
 
+## Orbit EMS (React/TypeScript)
+
+The runnable Orbit workspace, including its frontend, matching API, Prisma schema, seed data, and setup instructions, is in [`orbit-ems/`](orbit-ems/). Start with the [Orbit EMS README](orbit-ems/README.md).
+
 ## Known limitations
 
 - Employees are hard-deleted. Anyone with attendance or leave history cannot be deleted (409). A deactivate flag would be a natural next step.
