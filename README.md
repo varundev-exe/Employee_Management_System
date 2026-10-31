@@ -165,6 +165,10 @@ com.company.ems
 └── security     JWT service, filter, user details
 ```
 
+## Orbit EMS (React/TypeScript)
+
+The React frontend connects to the Spring Boot REST API already documented above. It is kept separately in [`frontend/`](frontend/); see the [frontend setup guide](frontend/README.md). No duplicate backend is included.
+
 ## Known limitations
 
 - Employees are hard-deleted. Anyone with attendance or leave history cannot be deleted (409). A deactivate flag would be a natural next step.
