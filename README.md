@@ -167,7 +167,7 @@ com.company.ems
 
 ## Orbit EMS (React/TypeScript)
 
-The runnable Orbit workspace, including its frontend, matching API, Prisma schema, seed data, and setup instructions, is in [`orbit-ems/`](orbit-ems/). Start with the [Orbit EMS README](orbit-ems/README.md).
+The React frontend connects to the Spring Boot REST API already documented above. It is kept separately in [`frontend/`](frontend/); see the [frontend setup guide](frontend/README.md). No duplicate backend is included.
 
 ## Known limitations
 
