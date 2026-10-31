@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: employee-management-system
+  profiles:
+    active: dev
+  jpa:
+    open-in-view: false
+  data:
+    web:
+      pageable:
+        max-page-size: 100
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:dev-only-secret-key-change-me-at-least-32-chars}
+    expiration-ms: 86400000   # 24 hours
